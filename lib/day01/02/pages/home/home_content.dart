@@ -14,6 +14,7 @@ class HomeContent extends StatelessWidget {
         children: <Widget>[
           Text(
             'You have pushed the button this many times:',
+            style: TextStyle(color: Colors.red),
           ),
           Text(
             '$count',
