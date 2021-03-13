@@ -6,7 +6,7 @@ class ColorUtils {
   static Color randomColor({int limitA = 120, int limitR = 0, int limitG = 0, int limitB = 0}) {
     var random = RandomProvider.random;
     var a = limitA + random.nextInt(256 - limitA); // alpha
-    var r = limitR + random.nrextInt(256 - limitR); // red
+    var r = limitR + random.nextInt(256 - limitR); // red
     var g = limitG + random.nextInt(256 - limitG); // green
     var b = limitB + random.nextInt(256 - limitB); // blue
     return Color.fromARGB(a, r, g, b);
